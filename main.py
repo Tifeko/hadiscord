@@ -4,7 +4,7 @@ import asyncio
 import os
 
 DISCORD_TOKEN = os.environ.get('DISCORD_TOKEN')
-HOME_ASSISTANT_URL = os.environ.get('HOME_ASSISTANT_URL')
+HOME_ASSISTANT_URL = (os.environ.get('HOME_ASSISTANT_URL') + '/api/states/sensor.discord_status')
 HOME_ASSISTANT_TOKEN = os.environ.get('HOME_ASSISTANT_TOKEN')
 USER_ID = os.environ.get('USER_ID')
 
