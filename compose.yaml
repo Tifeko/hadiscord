@@ -1,0 +1,5 @@
+services:
+  hadiscord:
+    image: ghcr.io/tifeko/hadiscord:latest
+    env_file:
+      - .env
